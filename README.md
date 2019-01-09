@@ -1,6 +1,6 @@
 # egoose-samples
 
-Samples, that demonstrates, how to use the npm module [@egodigital/egoose](https://www.npmjs.com/package/@egodigital/egoose).
+Samples, that demonstrate, how to use the npm module [@egodigital/egoose](https://www.npmjs.com/package/@egodigital/egoose).
 
 ## Functions
 
