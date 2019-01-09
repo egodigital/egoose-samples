@@ -1,0 +1,3 @@
+createMonitoringApiResult/node_modules/
+createMonitoringApiResult/**/*.js
+**/*.map
