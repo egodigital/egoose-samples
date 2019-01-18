@@ -6,3 +6,4 @@ Name | Description
 ---- | -----------
 [createMonitoringApiResult](https://github.com/egodigital/egoose-samples/tree/master/createMonitoringApiResult) | Demonstrates the use of [createMonitoringApiResult() function](https://egodigital.github.io/egoose/modules/_apis_index_.html#createmonitoringapiresult)
 [HTTP requests](https://github.com/egodigital/egoose-samples/tree/master/http-requests) | Demonstrates the use of HTTP request functions
+[Logger](https://github.com/egodigital/egoose-samples/tree/master/logger) | Demonstrates the use the logger framework
