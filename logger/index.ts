@@ -19,42 +19,40 @@
 import * as egoose from '@egodigital/egoose';
 
 
-(async () => {
-    const LOGGER = egoose.createLogger((log) => {
-        let icon: string;
+const LOGGER = egoose.createLogger((log) => {
+    let icon: string;
 
-        if (egoose.LogType.Emerg === log.type) {
-            icon = `☢️`;
-        } else if (egoose.LogType.Alert === log.type) {
-            icon = `🚨`;
-        } else if (egoose.LogType.Crit === log.type) {
-            icon = `🧨`;
-        } else if (egoose.LogType.Err === log.type) {
-            icon = `❗️`;
-        } else if (egoose.LogType.Warn === log.type) {
-            icon = `⚠️`;
-        } else if (egoose.LogType.Notice === log.type) {
-            icon = `📢`;
-        } else if (egoose.LogType.Info === log.type) {
-            icon = `ℹ️ `;
-        } else if (egoose.LogType.Debug === log.type) {
-            icon = `🔬`;
-        }
+    if (egoose.LogType.Emerg === log.type) {
+        icon = `☢️`;
+    } else if (egoose.LogType.Alert === log.type) {
+        icon = `🚨`;
+    } else if (egoose.LogType.Crit === log.type) {
+        icon = `🧨`;
+    } else if (egoose.LogType.Err === log.type) {
+        icon = `❗️`;
+    } else if (egoose.LogType.Warn === log.type) {
+        icon = `⚠️`;
+    } else if (egoose.LogType.Notice === log.type) {
+        icon = `📢`;
+    } else if (egoose.LogType.Info === log.type) {
+        icon = `ℹ️ `;
+    } else if (egoose.LogType.Debug === log.type) {
+        icon = `🔬`;
+    }
 
-        console.log(
-            `${ icon ? (icon + ' ') : '' } ${ log.time.format('YYYY-MM-DD HH:mm:ss') } => [${ log.tag }] ${ log.message }`
-        );
-    });
+    console.log(
+        `${ icon ? (icon + ' ') : '' } ${ log.time.format('YYYY-MM-DD HH:mm:ss') } => [${ log.tag }] ${ log.message }`
+    );
+});
 
-    LOGGER.emerg('This is an emergency', 'Tag 1');
-    LOGGER.alert('This is an alert', 'TAG 2');
-    LOGGER.crit('This is critical', 'tag 3');
-    LOGGER.err('This is critical', 'tag 4');
-    LOGGER.warn('Warning', 'tag 5');
-    LOGGER.note('A note', 'tag 6');
-    LOGGER.info('Some interesting info', 'tag 7');
-    LOGGER.dbg('Debug message', 'tag 8');
-    LOGGER.trace('Trace', 'tag 9');
+LOGGER.emerg('This is an emergency', 'Tag 1');
+LOGGER.alert('This is an alert', 'TAG 2');
+LOGGER.crit('This is critical', 'tag 3');
+LOGGER.err('This is critical', 'tag 4');
+LOGGER.warn('Warning', 'tag 5');
+LOGGER.note('A note', 'tag 6');
+LOGGER.info('Some interesting info', 'tag 7');
+LOGGER.dbg('Debug message', 'tag 8');
+LOGGER.trace('Trace', 'tag 9');
 
-    console.log('');
-})();
+console.log('');

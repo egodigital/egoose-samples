@@ -9,10 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "egoose",
-    "functions",
-    "api",
-    "monitoring"
+    "egoose"
   ],
   "author": "e.GO Digital GmbH",
   "license": "GPL-3.0",

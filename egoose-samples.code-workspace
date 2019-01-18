@@ -6,6 +6,9 @@
         "path": "./createMonitoringApiResult",
         "name": "createMonitoringApiResult()"
     }, {
+        "path": "./guid-uuid",
+        "name": "GUID / UUID"
+    }, {
         "path": "./http-requests",
         "name": "HTTP requests"
     }, {

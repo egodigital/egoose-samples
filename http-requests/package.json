@@ -1,7 +1,7 @@
 {
-  "name": "egoose-sample-createmonitoringapiresult",
+  "name": "egoose-sample-http-requests",
   "version": "0.0.1",
-  "description": "Demonstrates the use of createMonitoringApiResult() function.",
+  "description": "Demonstrates the use of HTTP request functions.",
   "main": "index.js",
   "scripts": {
     "build": "./node_modules/.bin/tsc",
@@ -9,10 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "egoose",
-    "functions",
-    "api",
-    "monitoring"
+    "egoose"
   ],
   "author": "e.GO Digital GmbH",
   "license": "GPL-3.0",
