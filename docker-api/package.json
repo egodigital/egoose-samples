@@ -1,0 +1,29 @@
+{
+  "name": "egoose-sample-docker-api",
+  "version": "0.0.1",
+  "description": "Shows, how to use the local Docker API.",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/tsc",
+    "start": "npm run build && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "egoose",
+    "functions",
+    "api",
+    "monitoring"
+  ],
+  "author": "e.GO Digital GmbH",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@egodigital/egoose": "^3.7.1",
+    "moment": "^2.23.0",
+    "table": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^8.10.39",
+    "@types/table": "^4.0.5",
+    "typescript": "^3.2.2"
+  }
+}
