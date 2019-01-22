@@ -1,6 +1,6 @@
 # egoose-samples :: LINQ
 
-How to handle arrays, lists and generator with LINQ-style syntax.
+How to handle [arrays](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Array), [strings](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/String) and [generators](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Generator) with LINQ-style syntax.
 
 ## Examples
 
