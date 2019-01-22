@@ -632,11 +632,11 @@ catch (e) {
 
 ```typescript
 // 0, '-', 1, '-', 2
-egoose.from([0, 3])
+egoose.from([0, 1, 2])
       .intersperse('-');
 
 // -- or --
-egoose.from([0, 3])
+egoose.from([0, 1, 2])
       .intersperseArray( ['-'] );
 ```
 
