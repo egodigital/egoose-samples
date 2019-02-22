@@ -7,7 +7,7 @@ Shows how to use the [sendMail() function](https://egodigital.github.io/egoose/m
 First, define the following environment variables:
 
 ```bash
-EWS_PASSWORX=<EWS-MAIL-PASSWORD>
+EWS_PASSWORD=<EWS-MAIL-PASSWORD>
 EWS_USERNAME=<EWS-MAIL-ADDRESS>
 ```
 
