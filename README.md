@@ -6,6 +6,7 @@ Name | Description
 ---- | -----------
 [API host](https://github.com/egodigital/egoose-samples/tree/master/api-host) | Demonstrates the use of API host class(es)
 [calcDistance()](https://github.com/egodigital/egoose-samples/tree/master/calcdistance) | Demonstrates the use of [calcDistance() function](https://egodigital.github.io/egoose/modules/_geo_index_.html#calcdistance)
+[calcRoute()](https://github.com/egodigital/egoose-samples/tree/master/calcroute) | Demonstrates the use of [calcRoute() function](https://egodigital.github.io/egoose/modules/_geo_index_.html#calcroute)
 [createMonitoringApiResult](https://github.com/egodigital/egoose-samples/tree/master/createMonitoringApiResult) | Demonstrates the use of [createMonitoringApiResult() function](https://egodigital.github.io/egoose/modules/_apis_index_.html#createmonitoringapiresult)
 [Docker API](https://github.com/egodigital/egoose-samples/tree/master/docker-api) | Shows, how to use the local Docker API
 [GUID / UUID](https://github.com/egodigital/egoose-samples/tree/master/guid-uuid) | Shows how to generate GUIDs / UUIDs
