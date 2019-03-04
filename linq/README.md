@@ -620,7 +620,7 @@ catch (e) {
 
     // e.errors[0] = 'Error in value 0';
     // e.errors[1] = 'Error in value 2';
-    // e.errors[2] = 'Error in value 3';
+    // e.errors[2] = 'Error in value 4';
 }
 
 // arr[0] === 1
