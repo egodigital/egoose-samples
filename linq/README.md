@@ -606,7 +606,7 @@ let arr = [];
 
 try {
     // alt: eachAll()
-    egoose.from([0, 1, 2, 3, 4]).forAll(x => {
+    egoose.from([0, 1, 2, 3, 4, 5]).forAll(x => {
         if (x % 2 === 0) {
             throw 'Error in value ' + x;
         }
