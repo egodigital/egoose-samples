@@ -11,7 +11,7 @@ First create a class of a [statistic provider](https://egodigital.github.io/egoo
 ```typescript
 import * as egoose from '@egodigital/egoose';
 
-export class MyStatisticProvider extends statistics.StatisticProviderBase {
+export class MyStatisticProvider extends egoose.StatisticProviderBase {
     protected async loadInner(opts: egoose.StatisticOptions, result: egoose.StatisticResult): Promise<void> {
         // fill 'result' with data
         // 
