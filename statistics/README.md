@@ -85,7 +85,7 @@ egoose.registerStatisticsEndpoint(
 );
 ```
 
-A GET call of `/stats/mystatistics` would reproduces a result like that:
+A GET call of `/stats/mystatistics` would produce a result like that:
 
 ```json
 {
