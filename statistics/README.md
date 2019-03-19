@@ -75,6 +75,7 @@ egoose.registerStatisticsEndpoint(
             // (true), if authorized; otherwise (false)
             return true;
         },
+
         providerDetector: (name: string, ctx: egoose.StatisticApiContext) => {
             // ctx => https://egodigital.github.io/egoose/interfaces/_apis_statistics_.statisticapicontext.html
 
