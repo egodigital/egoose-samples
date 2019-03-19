@@ -15,3 +15,4 @@ Name | Description
 [Logger](https://github.com/egodigital/egoose-samples/tree/master/logger) | Demonstrates the use of the logger framework
 [OAuth](https://github.com/egodigital/egoose-samples/tree/master/oauth) | OAuth samples
 [sendMail()](https://github.com/egodigital/egoose-samples/tree/master/sendmail) | Demonstrates the use of [sendMail() function](https://egodigital.github.io/egoose/modules/_mail_index_.html#sendmail)
+[statistics](https://github.com/egodigital/egoose-samples/tree/master/statistics) | Examples, that show how to use the statistic framework
