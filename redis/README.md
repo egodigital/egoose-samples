@@ -30,7 +30,7 @@ await REDIS.set('key_tm', 5979);
 tm = await REDIS.get('key_tm', false);
 ```
 
-### With construtcor
+### With constructor
 
 ```typescript
 import * as egoose from '@egodigital/egoose';
