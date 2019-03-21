@@ -14,5 +14,6 @@ Name | Description
 [LINQ](https://github.com/egodigital/egoose-samples/tree/master/linq) | How to handle arrays, strings and generators with LINQ-style syntax
 [Logger](https://github.com/egodigital/egoose-samples/tree/master/logger) | Demonstrates the use of the logger framework
 [OAuth](https://github.com/egodigital/egoose-samples/tree/master/oauth) | OAuth samples
+[redis](https://github.com/egodigital/egoose-samples/tree/master/redis) | Shows how to use [cache framework](https://egodigital.github.io/egoose/modules/_cache_index_.html) with [Redis](https://egodigital.github.io/egoose/modules/_cache_redis_.html)
 [sendMail()](https://github.com/egodigital/egoose-samples/tree/master/sendmail) | Demonstrates the use of [sendMail() function](https://egodigital.github.io/egoose/modules/_mail_index_.html#sendmail)
 [statistics](https://github.com/egodigital/egoose-samples/tree/master/statistics) | Examples, that show how to use the statistic framework
