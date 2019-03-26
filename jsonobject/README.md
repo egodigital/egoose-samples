@@ -15,7 +15,7 @@ import * as express from 'express';
 import * as joi from 'joi';
 
 
-interface NewUser {
+interface INewUser {
     email?: string;
     password: string;
     username: string;
@@ -40,11 +40,13 @@ APP.post('/users',
          egoose.jsonObject( SCHEMA_NEW_USER ),
     
          function(req: express.Request, res: express.Response) {
-             // add that point
+             // at that point
              // we have a valid
-             // JSON object
-             // describes in 'NewUser'
-             const NEW_USER: NewUser = req.body;
+             // JSON object as
+             // described in 'INewUser'
+             const NEW_USER: INewUser = req.body;
+
+             // TODO
          });
 
 APP.listen(8080);
