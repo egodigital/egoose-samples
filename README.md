@@ -4,6 +4,7 @@ Samples, that demonstrate, how to use the npm module [@egodigital/egoose](https:
 
 Name | Description
 ---- | -----------
+[addressToGeoCoordinates()](https://github.com/egodigital/egoose-samples/tree/master/addresstogeocoordinates) | Demonstrates the use of [sendMail() function](https://egodigital.github.io/egoose/modules/_geo_index_.html#addresstogeocoordinates)
 [API host](https://github.com/egodigital/egoose-samples/tree/master/api-host) | Demonstrates the use of API host class(es)
 [calcDistance()](https://github.com/egodigital/egoose-samples/tree/master/calcdistance) | Demonstrates the use of [calcDistance() function](https://egodigital.github.io/egoose/modules/_geo_index_.html#calcdistance)
 [calcRoute()](https://github.com/egodigital/egoose-samples/tree/master/calcroute) | Demonstrates the use of [calcRoute() function](https://egodigital.github.io/egoose/modules/_geo_index_.html#calcroute)
