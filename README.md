@@ -19,3 +19,4 @@ Name | Description
 [redis](https://github.com/egodigital/egoose-samples/tree/master/redis) | Shows how to use [cache framework](https://egodigital.github.io/egoose/modules/_cache_index_.html) with [Redis](https://egodigital.github.io/egoose/modules/_cache_redis_.html)
 [sendMail()](https://github.com/egodigital/egoose-samples/tree/master/sendmail) | Demonstrates the use of [sendMail() function](https://egodigital.github.io/egoose/modules/_mail_index_.html#sendmail)
 [statistics](https://github.com/egodigital/egoose-samples/tree/master/statistics) | Examples, that show how to use the statistic framework
+[WebSockets](https://github.com/egodigital/egoose-samples/tree/master/websockets) | Examples, that show how to use the [WebSockets](https://egodigital.github.io/egoose/modules/_http_websockets_.html) framework
