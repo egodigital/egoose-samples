@@ -10,6 +10,7 @@ Name | Description
 [calcRoute()](https://github.com/egodigital/egoose-samples/tree/master/calcroute) | Demonstrates the use of [calcRoute() function](https://egodigital.github.io/egoose/modules/_geo_index_.html#calcroute)
 [createMonitoringApiResult()](https://github.com/egodigital/egoose-samples/tree/master/createMonitoringApiResult) | Demonstrates the use of [createMonitoringApiResult() function](https://egodigital.github.io/egoose/modules/_apis_index_.html#createmonitoringapiresult)
 [Docker API](https://github.com/egodigital/egoose-samples/tree/master/docker-api) | Shows, how to use the local Docker API
+[format / formatArray](https://github.com/egodigital/egoose-samples/tree/master/format) | Demonstrates the use of [format()](https://egodigital.github.io/egoose/modules/_strings_index_.html#format) and [formatArray()](https://egodigital.github.io/egoose/modules/_strings_index_.html#formatarray) functions
 [GUID / UUID](https://github.com/egodigital/egoose-samples/tree/master/guid-uuid) | Shows how to generate GUIDs / UUIDs
 [HTTP requests](https://github.com/egodigital/egoose-samples/tree/master/http-requests) | Demonstrates the use of HTTP request functions
 [jsonObject()](https://github.com/egodigital/egoose-samples/tree/master/jsonobject) | Demonstrates the use of [jsonObject() function](https://egodigital.github.io/egoose/modules/_apis_validation_.html#jsonobject)
