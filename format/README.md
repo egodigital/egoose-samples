@@ -2,7 +2,7 @@
 
 Demonstrates the use of [format()](https://egodigital.github.io/egoose/modules/_strings_index_.html#format) and [formatArray()](https://egodigital.github.io/egoose/modules/_strings_index_.html#formatarray) functions.
 
-Both functions similar to [String.format()](https://docs.microsoft.com/en-us/dotnet/api/system.string.format?view=netframework-4.7.2) method of [.NET framework](https://en.wikipedia.org/wiki/.NET_Framework).
+Both functions are similar to [String.format()](https://docs.microsoft.com/en-us/dotnet/api/system.string.format?view=netframework-4.7.2) method of [.NET framework](https://en.wikipedia.org/wiki/.NET_Framework).
 
 ## Examples
 
