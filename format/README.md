@@ -90,8 +90,8 @@ egoose.registerStringFormatProviders({
 
 // "tm 5979"
 egoose.format('{0:trim_and_lower} {1}',
-              '  TM   ', 23979);
+              '  TM   ', 5979);
 // "TM 5979"
 egoose.formatArray('{0:trim_and_upper} {1}',
-                   [ '  tm   ', 23979 ]);
+                   [ '  tm   ', 5979 ]);
 ```
