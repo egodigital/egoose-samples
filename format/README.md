@@ -29,7 +29,7 @@ egoose.format('{0:leading_space}{1:leading_space}',
 
 // "TM "
 egoose.format('{1:ending_space}{0:ending_space}',
-              'TM', '');
+              '', 'TM');
 
 // "TM"
 egoose.format('{0:trim}',
@@ -59,7 +59,7 @@ egoose.formatArray('{0:leading_space}{1:leading_space}',
 
 // "TM "
 egoose.formatArray('{1:ending_space}{0:ending_space}',
-                   [ 'TM', '' ]);
+                   [ '', 'TM' ]);
 
 // "TM"
 egoose.formatArray('{0:trim}',
@@ -92,6 +92,6 @@ egoose.registerStringFormatProviders({
 egoose.format('{0:trim_and_lower} {1}',
               '  TM   ', 23979);
 // "TM 5979"
-egoose.format('{0:trim_and_upper} {1}',
-              '  tm   ', 23979);
+egoose.formatArray('{0:trim_and_upper} {1}',
+                   [ '  tm   ', 23979 ]);
 ```
