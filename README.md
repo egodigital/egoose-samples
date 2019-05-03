@@ -21,3 +21,5 @@ Name | Description
 [sendMail()](https://github.com/egodigital/egoose-samples/tree/master/sendmail) | Demonstrates the use of [sendMail() function](https://egodigital.github.io/egoose/modules/_mail_index_.html#sendmail)
 [statistics](https://github.com/egodigital/egoose-samples/tree/master/statistics) | Examples, that show how to use the statistic framework
 [WebSockets](https://github.com/egodigital/egoose-samples/tree/master/websockets) | Examples, that show how to use the [WebSockets](https://egodigital.github.io/egoose/modules/_http_websockets_.html) framework
+[Zip](https://github.com/egodigital/egoose-samples/tree/master/zip) | Shows the [ZipBuilder](https://egodigital.github.io/egoose/modules/_zip_builder_.html) classes and functions
+
