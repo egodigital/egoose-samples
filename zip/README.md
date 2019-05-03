@@ -12,14 +12,16 @@ const NEW_ZIP = egoose.buildZip();
 
 // add buffer
 NEW_ZIP.addBuffer(
-    '/path/in/zip/file.txt',
+    // no leading '/'!
+    'path/in/zip/file.txt',
     // e.g. from a local file
     fs.readFileSync('/local/path/of/file.txt'),
 );
 
 // add empty directory
 NEW_ZIP.addDir(
-    '/path/of/zip/directory'
+    // no leading '/'!
+    'path/of/zip/directory'
 );
 
 // create a buffer
