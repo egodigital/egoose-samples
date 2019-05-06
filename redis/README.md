@@ -28,6 +28,11 @@ await REDIS.set('key_tm', 5979);
 
 // now the value should be 5979
 tm = await REDIS.get('key_tm', false);
+
+// save value for 10 seconds
+await REDIS.set('key_pz', 'PZSUX', {
+    'ttl': 10
+});
 ```
 
 ### With constructor
