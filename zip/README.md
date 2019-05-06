@@ -18,6 +18,12 @@ NEW_ZIP.addBuffer(
     fs.readFileSync('/local/path/of/file.txt'),
 );
 
+// add all files of a local directory
+NEW_ZIP.addFiles(
+    '/path/to/local/directory',
+    '/option/zip/base/path'
+);
+
 // add empty directory
 NEW_ZIP.addDir(
     // no leading '/'!

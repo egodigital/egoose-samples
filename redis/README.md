@@ -48,4 +48,9 @@ await REDIS.set('key_tm', '1979-09-05 23:09');
 
 // now the value should be '1979-09-05 23:09'
 tm = await REDIS.get('key_tm', false);
+
+// save value for 10 seconds
+await REDIS.set('key_pz', 'PZSUX', {
+    'ttl': 10
+});
 ```
