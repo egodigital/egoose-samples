@@ -14,12 +14,12 @@
   "author": "e.GO Digital GmbH",
   "license": "GPL-3.0",
   "dependencies": {
-    "@egodigital/egoose": "^6.9.0",
-    "table": "^5.4.4"
+    "@egodigital/egoose": "^7.0.0",
+    "table": "^5.4.6"
   },
   "devDependencies": {
-    "@types/node": "^10.14.12",
-    "@types/table": "^4.0.6",
-    "typescript": "3.4.5"
+    "@types/node": "^10.17.13",
+    "@types/table": "^4.0.7",
+    "typescript": "^3.7.4"
   }
 }
