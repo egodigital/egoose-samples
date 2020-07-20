@@ -18,12 +18,12 @@
   "license": "GPL-3.0",
   "dependencies": {
     "@egodigital/egoose": "^7.0.0",
-    "moment": "^2.24.0",
+    "moment": "^2.27.0",
     "table": "^5.4.6"
   },
   "devDependencies": {
-    "@types/node": "^10.17.13",
+    "@types/node": "^10.17.27",
     "@types/table": "^4.0.7",
-    "typescript": "^3.7.4"
+    "typescript": "^3.9.7"
   }
 }

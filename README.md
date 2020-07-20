@@ -14,7 +14,6 @@ Name | Description
 [GUID / UUID](https://github.com/egodigital/egoose-samples/tree/master/guid-uuid) | Shows how to generate GUIDs / UUIDs
 [HTTP requests](https://github.com/egodigital/egoose-samples/tree/master/http-requests) | Demonstrates the use of HTTP request functions
 [jsonObject()](https://github.com/egodigital/egoose-samples/tree/master/jsonobject) | Demonstrates the use of [jsonObject() function](https://egodigital.github.io/egoose/modules/_apis_validation_.html#jsonobject)
-[LINQ](https://github.com/egodigital/egoose-samples/tree/master/linq) | How to handle arrays, strings and generators with LINQ-style syntax
 [Logger](https://github.com/egodigital/egoose-samples/tree/master/logger) | Demonstrates the use of the logger framework
 [OAuth](https://github.com/egodigital/egoose-samples/tree/master/oauth) | OAuth samples
 [redis](https://github.com/egodigital/egoose-samples/tree/master/redis) | Shows how to use [cache framework](https://egodigital.github.io/egoose/modules/_cache_index_.html) with [Redis](https://egodigital.github.io/egoose/modules/_cache_redis_.html)
